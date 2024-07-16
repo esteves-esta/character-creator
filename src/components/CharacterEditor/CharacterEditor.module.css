@@ -35,6 +35,31 @@
   max-width: 50%;
 }
 
+@media (max-width: 700px) {
+  .controlColumn {
+    overflow-y: auto;
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+
+  .controlColumn>div {
+    max-width: 300px;
+    margin-right: 10px;
+  }
+
+  .header {
+    padding-bottom: 200px;
+    max-width: 100%;
+  }
+
+  .characterWrapper {
+    top: 200px;
+  }
+}
+
+
 .perspectiveBar {
   position: fixed;
   bottom: 0px;
